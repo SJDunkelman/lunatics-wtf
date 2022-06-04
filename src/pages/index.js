@@ -31,19 +31,19 @@ function IndexPage (){
     switch (info){
         case 0:
             infoGraphic = <div className="flex h-full w-full">
-                <StaticImage src="../images/about-mascot-1.png" alt="Do Kwon NFT" className="w-40"/>
+                <img src="../images/about-mascot-1.png" alt="Do Kwon NFT" className="w-40"/>
                 <p className="text-xl py-6 pl-4">9 per mint bc <span className="font-semibold">Greed is Good</span></p>
             </div>;
             break;
         case 1:
             infoGraphic = <div className="flex h-full w-full">
-                <StaticImage src="../images/about-mascot-2.png" alt="Do Kwon NFT" className="w-40"/>
+                <img src="../images/about-mascot-2.png" alt="Do Kwon NFT" className="w-40"/>
                 <p className="text-xl py-6 pl-4">999 in the treasury because <span className="font-semibold">99.9</span> a <span className="font-red-300">good</span> number</p>
             </div>;
             break;
         case 2:
             infoGraphic = <div className="flex h-full w-full">
-                <StaticImage src="../images/about-mascot-3.png" alt="Do Kwon NFT" className="w-40"/>
+                <img src="../images/about-mascot-3.png" alt="Do Kwon NFT" className="w-40"/>
                 <p className="text-xl py-6 pl-4">9 per mint bc <span className="font-semibold">Greed is Good</span></p>
             </div>;
         break;
