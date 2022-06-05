@@ -1,7 +1,6 @@
 import React from "react";
 import {useState} from "react";
 import { ethers, BigNumber } from "ethers";
-import lunaticsNFT from "../contracts/LunaticsNFT.json";
 
 const lunaticsNFTAddress = "0xBe3CE5b42d581f085E08f267B28db520a3a6635A";
 

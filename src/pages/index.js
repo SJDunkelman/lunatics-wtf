@@ -13,7 +13,7 @@ function IndexPage (){
     // Web3 fetch data
     const [tSupply, setTsupply] = useState(0);
 
-    let provider = new ethers.providers.JsonRpcProvider("https://rinkeby.infura.io/v3/d022654b0a33493ca23ccffc7ce1eebc");
+    let provider = new ethers.providers.JsonRpcProvider("https://mainnet.infura.io/v3/d022654b0a33493ca23ccffc7ce1eebc");
     const nftContract = new ethers.Contract(
         '0xBe3CE5b42d581f085E08f267B28db520a3a6635A',
         [

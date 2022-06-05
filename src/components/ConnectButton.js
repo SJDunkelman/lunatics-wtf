@@ -1,5 +1,4 @@
 import React from "react";
-import Web3Modal from "web3modal";
 
 
 const ConnectButton = ({ accounts, setAccounts}) => {
@@ -28,7 +27,6 @@ const ConnectButton = ({ accounts, setAccounts}) => {
                 </div> :
                 <button className="px-4 py-2 btn-gradient-border rounded-lg text-white hover:drop-shadow-xl" onClick={connectAccount}>Connect</button>
             }
-
         </div>
     )
 }
