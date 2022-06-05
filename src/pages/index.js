@@ -2,7 +2,7 @@ import React, {useState, useEffect} from "react"
 import Layout from "../components/Layout";
 import {StaticImage} from "gatsby-plugin-image";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
-import MusicPlayer from "../components/MusicPlayer";
+// import MusicPlayer from "../components/MusicPlayer";
 import {Link} from "gatsby";
 import {ethers, utils} from "ethers";
 
@@ -84,7 +84,7 @@ function IndexPage (){
                             </div>
 
                             <a href="https://opensea.io/" target="_blank"><StaticImage src="../images/opensea.png" alt="Opensea" className={`w-12 ${onHover}`}  /></a>
-                            <MusicPlayer />
+                            {/*<MusicPlayer />*/}
                         </div>
                     </nav>
                 </div>
