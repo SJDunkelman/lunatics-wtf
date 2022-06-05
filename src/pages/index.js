@@ -222,11 +222,11 @@ function IndexPage (){
                 </Link>
             </div>
             <footer className="w-full flex items-center justify-center py-12 bg-cream">
-                <div className="text-5xl flex space-x-6">
+                <div className="text-5xl flex space-x-6 items-center">
                     <a href="https://twitter.com/lunaticswtf" target="_blank"><i className={`fa-brands fa-twitter ${terraGradient} ${onHover}`} /></a>
                     <a href="https://opensea.io/lunaticswtf" target="_blank"><StaticImage src="../images/opensea.png" alt="Opensea" className={`w-12 ${onHover}`}  /></a>
 
-                    <a href="https://icy.tools/calendar" target="_blank"> <img src="https://cdn.icy.tools/images/icy-tools-dark.svg" alt="as seen on icy.tools" width="256" /></a>
+                    <a href="https://icy.tools/calendar" target="_blank"> <img src="https://cdn.icy.tools/images/icy-tools-dark.svg" alt="as seen on icy.tools" width="164" /></a>
 
                     {/*<button onClick={start}>Play</button>*/}
                     {/*<MusicPlayer />*/}
