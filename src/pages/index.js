@@ -191,7 +191,7 @@ function IndexPage (){
                     <a href="https://twitter.com/lunaticswtf/" target="_blank"><i className={`fa-brands fa-twitter ${terraGradient} ${onHover}`} /></a>
                     <a href="https://opensea.io/" target="_blank"><StaticImage src="../images/opensea.png" alt="Opensea" className={`w-12 ${onHover}`}  /></a>
                     {/*<button onClick={start}>Play</button>*/}
-                    <MusicPlayer />
+                    {/*<MusicPlayer />*/}
                     {/*<i className={`fa-solid fa-boombox ${terraGradient} ${onHover}`} />*/}
                 </div>
             </footer>
