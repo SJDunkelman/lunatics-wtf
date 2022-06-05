@@ -15,7 +15,7 @@ function IndexPage (){
 
     let provider = new ethers.providers.JsonRpcProvider("https://mainnet.infura.io/v3/d022654b0a33493ca23ccffc7ce1eebc");
     const nftContract = new ethers.Contract(
-        '0xF2E4EF475a4bEC237a10400C00a642f2ceDb06dA',
+        '0xBe3CE5b42d581f085E08f267B28db520a3a6635A',
         [
             `function totalSupply() public view returns(uint256)`,
         ],

@@ -30,7 +30,7 @@ const MintCard = ({ accounts, setAccounts }) => {
             const provider = new ethers.providers.Web3Provider(window.ethereum);
             const signer = provider.getSigner();
             const nftContract = new ethers.Contract(
-                '0xF2E4EF475a4bEC237a10400C00a642f2ceDb06dA',
+                '0xBe3CE5b42d581f085E08f267B28db520a3a6635A',
                 [
                     `function mint(uint256 quantity_) public `,
                 ],
