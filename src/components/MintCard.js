@@ -65,7 +65,6 @@ const MintCard = ({ accounts, setAccounts }) => {
                     <p className="text-xl">You must connect your MetaMask wallet to mint.</p>
                 </div>
             )
-
             }
         </div>
     )
