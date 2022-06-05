@@ -3,7 +3,7 @@ import {useState} from "react";
 import { ethers, BigNumber } from "ethers";
 import lunaticsNFT from "../contracts/LunaticsNFT.json";
 
-const lunaticsNFTAddress = "0x0dd15CBE47aBD2A4817AB9D200EfC148f01d7828";
+const lunaticsNFTAddress = "0xBe3CE5b42d581f085E08f267B28db520a3a6635A";
 
 const MintCard = ({ accounts, setAccounts }) => {
 
