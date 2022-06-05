@@ -82,7 +82,7 @@ function IndexPage (){
                     <nav className="w-full flex items-center justify-center py-4">
                         <div className="text-5xl flex space-x-6">
                             <div className="cursor-pointer">
-                                <a href="https://twitter.com/lunaticswtf/" target="_blank">
+                                <a href="https://twitter.com/lunaticswtf" target="_blank">
                                     <i className={`fa-brands fa-twitter ${terraGradient} ${onHover}`} />
                                 </a>
                             </div>
@@ -223,8 +223,8 @@ function IndexPage (){
             </div>
             <footer className="w-full flex items-center justify-center py-12 bg-cream">
                 <div className="text-5xl flex space-x-6">
-                    <a href="https://twitter.com/lunaticswtf/" target="_blank"><i className={`fa-brands fa-twitter ${terraGradient} ${onHover}`} /></a>
-                    <a href="https://opensea.io/" target="_blank"><StaticImage src="../images/opensea.png" alt="Opensea" className={`w-12 ${onHover}`}  /></a>
+                    <a href="https://twitter.com/lunaticswtf" target="_blank"><i className={`fa-brands fa-twitter ${terraGradient} ${onHover}`} /></a>
+                    <a href="https://opensea.io/lunaticswtf" target="_blank"><StaticImage src="../images/opensea.png" alt="Opensea" className={`w-12 ${onHover}`}  /></a>
                     {/*<button onClick={start}>Play</button>*/}
                     {/*<MusicPlayer />*/}
                     {/*<i className={`fa-solid fa-boombox ${terraGradient} ${onHover}`} />*/}
