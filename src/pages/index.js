@@ -225,6 +225,9 @@ function IndexPage (){
                 <div className="text-5xl flex space-x-6">
                     <a href="https://twitter.com/lunaticswtf" target="_blank"><i className={`fa-brands fa-twitter ${terraGradient} ${onHover}`} /></a>
                     <a href="https://opensea.io/lunaticswtf" target="_blank"><StaticImage src="../images/opensea.png" alt="Opensea" className={`w-12 ${onHover}`}  /></a>
+
+                    <a href="https://icy.tools/calendar" target="_blank"> <img src="https://cdn.icy.tools/images/icy-tools-dark.svg" alt="as seen on icy.tools" width="256" /></a>
+
                     {/*<button onClick={start}>Play</button>*/}
                     {/*<MusicPlayer />*/}
                     {/*<i className={`fa-solid fa-boombox ${terraGradient} ${onHover}`} />*/}
