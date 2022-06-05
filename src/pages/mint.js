@@ -19,9 +19,9 @@ function NewMintPage (){
                 <nav className="w-full flex items-center justify-center py-12">
                     <div className="text-5xl flex space-x-6">
                         <div>
-                             <a href="#"><i className={`fa-brands fa-twitter ${terraGradient} ${onHover}`} /></a>
+                             <a href="https://twitter.com/lunaticswtf/" target="_blank"><i className={`fa-brands fa-twitter ${terraGradient} ${onHover}`} /></a>
                          </div>
-                         <a href="https://www.opensea.io">
+                         <a href="https://opensea.io/collection/lunaticswtf" target="_blank">
                              <StaticImage src="../images/opensea.png" alt="Opensea" className={`w-12 ${onHover}`}  />
                          </a>
                          <Link to="/">
