@@ -49,28 +49,23 @@ const MintCard = ({ accounts, setAccounts }) => {
 
     return(
         <div>
-            <div className="hidden md:block">
-                {isConnected ? (
-                    <div className="flex flex-col space-y-6">
-                        <div className="flex space-x-4 text-4xl">
-                            <button onClick={handleDecrement}><i className="fa-solid fa-minus" /></button>
-                            <p>{mintAmount}</p>
-                            <button onClick={handleIncrement}><i className="fa-solid fa-plus" /></button>
-                        </div>
-                        <button className="text-lg text-white bg-terra-blue rounded-lg py-2 px-4" onClick={handleMint}>
-                            Mint
-                        </button>
-                    </div>) : (
-                    <div>
-                        <i className="fa-regular fa-arrow-up" />
-                        <p className="text-xl">You must connect your MetaMask wallet (on desktop) to mint.</p>
+            {isConnected ? (
+                <div className="flex flex-col space-y-6">
+                    <div className="flex space-x-4 text-4xl">
+                        <button onClick={handleDecrement}><i className="fa-solid fa-minus" /></button>
+                        <p>{mintAmount}</p>
+                        <button onClick={handleIncrement}><i className="fa-solid fa-plus" /></button>
                     </div>
-                )
-                }
-            </div>
-            <div className="flex flex-col items-center justify-center md:hidden">
-                <h1 className="text-2xl text-center text-white">We currently only support minting on Desktop Browsers.</h1>
-            </div>
+                    <button className="text-lg text-white bg-terra-blue rounded-lg py-2 px-4" onClick={handleMint}>
+                        Mint
+                    </button>
+                </div>) : (
+                <div>
+                    <i className="fa-regular fa-arrow-up" />
+                    <p className="text-xl">You must connect your MetaMask wallet (on desktop) to mint.</p>
+                </div>
+            )
+            }
         </div>
     )
 }
